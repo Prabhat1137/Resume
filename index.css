@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+    box-sizing: border-box;
+}
+body{
+    /* background: #bce2ed; */
+}
+#main{
+    background: #b495f1;
+    margin: 10px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    /* border-style:solid; */
+}
+div
+{
+    word-wrap: break-word;
+}
+
+li{
+    /* overflow: hidden; */
+    /* display: inline; */
+    /* border: 1px solid;
+    */
+    
+}
+ul{
+    /* overflow: hidden; */
+    /* list-style-position: inside; */
+}
+.header{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 35px;
+    color: #000d0feb;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+.cont{
+    height: 1200px;
+    width: 100%;
+    background: rgba(180, 209, 235, 0.67);
+    display: flex;
+}
+@media(max-width:600px)
+{
+    .cont{
+        display:block;
+    }
+    .cont .left{
+        width: 100%;
+    }
+    .cont .right{
+        width: 100%;
+    }
+}
+.left{
+    /* position: relative; */
+    height: 1200px;
+    width: 25%;
+    background: #034360;
+}
+.right{
+    /* position: relative; */
+    height: 1200px;
+    width: 80%;
+    background: rgba(129, 192, 247, 0.67);
+
+}
+
+#img{
+    width: 70%;
+    height: auto;
+    border-radius: 50%;
+}
+.profile{
+    background: #034360;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.profilePic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    /* background: #000; */
+}
+.name{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.contactHeader{
+    color:rgb(16, 242, 16);
+}
+.contact{
+    color: aliceblue;
+    padding-top: 15px;
+    text-align: center;
+}
+.email{
+    display: flex;
+}
+.emailImg{
+    
+    display: flex;
+    justify-content: left;
+}
+
+.emailImg img{
+    width: 100%;
+}
+#emailAdd{
+}
+.list{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 10px;
+}
+.contact ul{
+    list-style: none;
+}
+#call{
+    width: 7%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.eduHeader{
+    color:rgb(16, 242, 16);
+}
+.education{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: aliceblue;
+    
+}
+.eduDetails{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    padding-top: 15px;
+}
+.skillsHeader{
+    color: aliceblue;
+    text-align: center;
+    color:rgb(16, 242, 16);
+}
+.skillsList{
+    color: aliceblue;
+    text-align: left;
+}.skillsType{
+    list-style-type: square;
+    color: aqua;
+}
+.certificatesHeader{
+    text-align: center;
+    color:rgb(16, 242, 16);
+
+}
+.certificatesList{
+    color: aliceblue;
+    text-align: left;
+}
+
+/* right items */
+
+.obj{
+
+    border: 1px solid;
+    background:rgb(145, 245, 150);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: justify;
+
+}
+
+.workexp{
+    border: 1px solid;
+    background:rgb(231, 245, 174);
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    
+
+}
+.workexpHeader{
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+.workexpText{
+    margin: 20px;
+    margin-left: 30px;
+    text-align: justify;
+}
+.project{
+
+}
+.resumeButton{
+    height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #b1aaaa; */
+
+   
+}
+#btn{
+    border-radius:10px;
+    background: #76f39b;
+    color: rgb(6, 1, 26);
+    border: 1.5px solid;
+    font-size: 17px;
+    padding: 7px;
+}
+.web-clone li a{
+   color: black;
+}
+.web-clone li a:hover{
+   color: rgb(7, 248, 23);
+   font-size: 1.15rem;
+}
+
+.linkedin h4 a:hover{
+    font-size: 1.1rem;
+    color: rgb(0, 213, 255);
+    
+}
+.insta h4 a:hover{
+    font-size: 1.1rem;
+    color: rgb(0, 225, 255);
+    
+}
+.linkedin  h4 a{
+    color: rgb(252, 251, 251);
+    
+}
+.list  h4 a{
+    color: rgb(252, 251, 251);
+    
+}
+
+
+
